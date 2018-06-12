@@ -1,0 +1,10 @@
+# vim:filetype=sh
+
+if [[ $USE_DISTCC ]]; then
+  [ -d /usr/lib/ccache ]   && export PATH=/usr/lib/ccache:$PATH
+  [ -d /usr/lib64/ccache ] && export PATH=/usr/lib64/ccache:$PATH
+  type distcc >/dev/null 2>&1 && {    \
+    export CCACHE_PREFIX=distcc;      \
+    export DISTCC_HOSTS='localhost';  \
+  }
+fi

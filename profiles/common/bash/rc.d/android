@@ -1,0 +1,4 @@
+# vim:filetype=sh
+
+[ -d $HOME/Android/Sdk/tools ] && export PATH="$HOME/Android/Sdk/tools:$PATH"
+[ -d $HOME/Android/Sdk/platform-tools ] && export PATH="$HOME/Android/Sdk/platform-tools:$PATH"
