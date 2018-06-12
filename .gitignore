@@ -1,0 +1,17 @@
+*.*~
+*.swp
+
+.Xauthority
+
+.bash_history
+.bash_logout
+
+.viminfo
+.vim/.netrwhist
+
+.config/*
+
+!.config/htop
+!.config/htop/htoprc
+
+!.config/powerline-shell/config.json
