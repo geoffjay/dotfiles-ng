@@ -1,0 +1,6 @@
+# source custom bash signature
+case "$-" in
+  # only do if there's an interactive shell
+  *i*) [ -f ~/.bash_sig ] && source ~/.bash_sig ;;
+  *)   ;;
+esac

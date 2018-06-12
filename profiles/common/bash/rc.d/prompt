@@ -1,4 +1,5 @@
 # vim:filetype=sh
+
 function __parse_git_branch() {
     local branch stat
 

@@ -52,3 +52,5 @@ if [[ -d ~/.bash.d ]]; then
     [[ -f "${i}" ]] && source "${i}"
   done
 fi
+
+# vim: set ts=2 sw=2:

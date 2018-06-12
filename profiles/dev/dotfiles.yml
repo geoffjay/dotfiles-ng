@@ -1,0 +1,5 @@
+--- !dotfiles/profiles/dev
+name: dev
+base: common
+comments: >
+  Development profile using i3.
