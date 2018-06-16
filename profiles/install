@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+import yaml
+
+def main():
+    path = os.path.dirname(os.path.realpath(__file__))
+    filename = '%s/%s/dotfiles.yml' % (path, args['profile'])
+    with open(filename, 'r') as stream:
+        try:
+            print(yaml.load(stream))
+        except yaml.YAMLError as e:
+            print(e)
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-p', '--profile', help='Profile to install', required=True)
+    args = vars(parser.parse_args())
+    main()
+
+#vim: filetype=py

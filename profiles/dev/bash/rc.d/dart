@@ -1,0 +1,3 @@
+# vim:filetype=sh
+
+[ -d /opt/google/dart-sdk/bin ] && export PATH="/opt/google/dart-sdk/bin:$PATH"

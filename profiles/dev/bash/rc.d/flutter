@@ -1,0 +1,3 @@
+# vim:filetype=sh
+
+[ -d /opt/google/flutter/bin ] && export PATH="/opt/google/flutter/bin:$PATH"

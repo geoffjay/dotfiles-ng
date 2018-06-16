@@ -1,0 +1,3 @@
+# vim:filetype=sh
+
+[ -d /opt/processing ] && export PATH="/opt/processing:$PATH"

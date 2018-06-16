@@ -1,4 +1,4 @@
---- !dotfiles/profiles/dev
+---
 name: dev
 base: common
 comments: >

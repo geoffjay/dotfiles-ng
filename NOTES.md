@@ -41,3 +41,16 @@ dev
     i3
   vim
 ```
+
+## Dependencies
+
+### Standard Repositories
+
+* neofetch
+
+### PIP Packages
+
+* powerline
+* powerline-shell
+
+### NPM Packages

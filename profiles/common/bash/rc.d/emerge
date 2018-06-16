@@ -1,0 +1,3 @@
+# vim:filetype=sh
+
+emerge-update=`emerge --update --newuse --deep @world`

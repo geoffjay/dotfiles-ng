@@ -1,0 +1,3 @@
+# vim:filetype=sh
+
+[ -d /opt/arduino ] && export PATH="/opt/arduino:$PATH"
